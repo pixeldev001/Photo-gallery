@@ -1,0 +1,361 @@
+div {
+  font-family: arial;
+}
+
+img {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+
+
+.brand-logo {
+  width: 150px;
+  flex: auto;
+  margin-top: 8px;
+  margin-left: 10px;  
+}
+
+
+.options {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-between;
+  margin-left: 400px;
+  cursor: pointer;
+}
+
+.travel-blog {
+  color: rgb(244, 88, 114);
+}
+
+.sub-heading {
+  font-family: Amaranth, sans-serif;
+  font-size: 52px;
+  color: rgb(67, 193, 198);
+  background-color: rgb(218 165 107);
+  width: auto;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 50px;
+  
+}
+
+.blog-page {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background-color: rgb(235 205 173);
+  height: 2200px;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+
+img {
+  width: 364.2px;
+}
+
+.content-section {
+  margin-top: -5px;
+  width: 364.8px;
+  height: 400px;
+  background-color: white;
+  
+}
+
+.heading-1 {
+  font-size: 12px;
+  font-family: DM Sans, sans-serif;
+  font-weight: bold;
+  color: rgb(241, 55, 113);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.title {
+  font-family: amaranth, sans-serif;
+  font-size: 28px;
+  color: rgb(67, 193, 198);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.author {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: #474747;
+}
+
+.content {
+  font-family: DM Sans, sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: #474747;
+}
+
+.more {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: #474747;
+}
+
+.blog-1 {
+ margin-left: 200px;
+  margin-top: 80px;
+}
+
+
+.blog-2 {
+  margin-left: 400px;
+  margin-top: 80px;
+}
+
+
+.post-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post-4 {
+  margin-bottom: 30px;
+}
+
+.pages-numbers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  justify-content: space-between;
+  width: 250px;
+  font-family: DM Sans, sans-serif;
+}
+
+.no-1 {
+  background-color: rgb(241, 55, 113);
+  color: white;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  margin-right: 15px;
+
+}
+
+.no-2,
+.no-3,
+.dots,
+.no-6,
+.more-button{
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  margin-right: 15px;
+
+}
+
+
+.more-button:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(241, 55, 113);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+
+.no-2:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(241, 55, 113);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+
+.no-3:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(241, 55, 113);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+
+.dots:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(241, 55, 113);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+
+.no-6:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(241, 55, 113);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+
+.footer {
+  background-color: rgb(241, 198, 152);
+  height: 400px;
+}
+
+.options-section {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: auto ;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 18px;
+  font-family: DM Sans, sans-serif;
+  
+}
+
+.aboutus,
+.contactus,
+.privacy-policy,
+.FAQ {
+  padding-right: 20px;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.address {
+  width: 400px;
+  color: white;
+  font-size: 18px;
+  font-family: DM Sans, sans-serif;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+.brand-logo-1 {
+  width: 100px;
+}
+
+.aboutus:hover {
+  color: rgb(240, 102, 146);
+  cursor: pointer;
+}
+
+.contactus:hover {
+  color: rgb(240, 102, 146);
+  cursor: pointer;
+}
+
+.privacy-policy:hover {
+  color: rgb(240, 102, 146);
+  cursor: pointer;
+}
+
+.FAQ:hover {
+  color: rgb(240, 102, 146);
+  cursor: pointer;
+}
+
+
+.home:hover {
+  color: rgb(246, 130, 149);
+}
+
+.about-us:hover {
+  color: rgb(246, 130, 149);
+}
+
+.faq:hover {
+  color: rgb(246, 130, 149);
+}
+
+.custom-tours:hover {
+  color: rgb(246, 130, 149);
+}
+
+.group-tours:hover {
+  color: rgb(246, 130, 149);
+}
+
+.testimonials:hover {
+  color: rgb(246, 130, 149);
+}
+
+.contact-us:hover {
+  color: rgb(246, 130, 149);
+}
+
+.heading-1:hover {
+  color: rgb(203, 136, 12);
+  cursor: pointer;
+}
+
+.title:hover {
+  color: rgb(250, 163, 0);
+  cursor: pointer;
+}
+
+.more:hover {
+  color: rgb(240, 102, 146);
+  cursor: pointer;
+}
+
+.home {
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
