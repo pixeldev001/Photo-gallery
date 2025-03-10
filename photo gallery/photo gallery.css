@@ -1,0 +1,33 @@
+.picture-section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 50px ;
+}
+
+p {
+  font-family: Arial;
+}
+
+img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 80px;
+  font-family: Meow Script, arial;
+  margin-left: 600px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: bold
+}
+
+span {
+  font-size: 15px;
+  padding-left: 10px;
+  color: rgb(100, 100, 100);
+}
